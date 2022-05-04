@@ -124,17 +124,17 @@ pdf = FPDF('P', 'mm', 'A4')
 pdf.add_page()
 
 pdf.set_font('Arial', 'B', 20)
-pdf.set_text_color(255, 255, 255)
+pdf.set_text_color(0, 0, 0)
 pdf.cell(0, 50, 'O impacto da COVID19 no ingresso ao ensino superior\nno estado de São Paulo', align='C', ln=1)
 
 pdf.set_font('Arial', 'B', 16)
-pdf.set_text_color(255, 255, 255)
+pdf.set_text_color(0, 0, 0)
 pdf.cell(0, 155, 'Análise feita por:\nJuan Souza', align='C', ln=1)
 
 # Insere o titulo da segunda página
 pdf.add_page()
 pdf.set_font('Arial', 'B', 18)
-pdf.set_text_color(255, 255, 255)
+pdf.set_text_color(0, 0, 0)
 pdf.cell(0, 15, 'Dados da COVID19 em SP', align='C', ln=1)
 
 # Insere os gráficos dos óbitos e casos mensais
